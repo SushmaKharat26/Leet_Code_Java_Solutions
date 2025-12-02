@@ -21,7 +21,7 @@ public class NumberOfWays {
 
     public int countWays(int total, int power) {
         long[] ways = new long[total + 1];
-        ways[0] = 1; // Base case: 1 way to get sum = 0
+        ways[0] = 1; 
 
         for (int base = 1; Math.pow(base, power) <= total; base++) {
             int value = (int) Math.pow(base, power);
@@ -34,6 +34,6 @@ public class NumberOfWays {
 
     public static void main(String[] args) {
         NumberOfWays solver = new NumberOfWays();
-        System.out.println(solver.countWays(10, 2)); // Example output
+        System.out.println(solver.countWays(10, 2)); 
     }
 }
