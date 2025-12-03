@@ -24,6 +24,6 @@ class Solution {
                 nums[i] = nums[j];
             }
         }
-        return i + 1; // Number of unique elements
+        return i + 1; 
     }
 }
