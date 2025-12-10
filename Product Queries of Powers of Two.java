@@ -25,7 +25,7 @@ class Solution {
             }
         }
 
-        // Step 2: Build prefix product array modulo MOD
+        
         int len = powers.size();
         long[] prefixProd = new long[len + 1];
         prefixProd[0] = 1;
