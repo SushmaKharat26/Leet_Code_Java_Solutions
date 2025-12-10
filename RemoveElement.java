@@ -9,7 +9,7 @@ It iterates once through the array, placing valid elements at the start, and ret
 
 class Solution {
     public int removeElement(int[] nums, int val) {
-        int k = 0; // pointer for position of non-val elements
+        int k = 0; 
         for (int num : nums) {
             if (num != val) {
                 nums[k++] = num;
